@@ -1,0 +1,33 @@
+.card {
+    background-color: white;
+    padding: 0;    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);  
+    width: 200px;
+    max-height: 350px;
+    min-height: 350px;
+    cursor: pointer;    
+    border-radius: 3px;
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);    
+}
+
+.image img {
+    height: 280px;
+    width: 200px;           
+}
+
+.title {
+    margin: 1px;
+    height: 70px;
+    width: 80%;
+    font-size: 10px;    
+    text-align: center;
+    margin-left: 10%;
+    font-weight: bold;
+    position: relative;
+    height: 3.6em; /* exactly three lines */        
+}
+

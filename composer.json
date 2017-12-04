@@ -1,0 +1,5 @@
+{
+    "require": {
+        "messerli90/igdb": "^1.0"
+    }
+}
